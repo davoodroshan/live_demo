@@ -2,7 +2,9 @@
 title: "Demo rmarkdown"
 author: "Davood Roshan"
 date: '2023-11-15'
-output: html_document
+output:
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
